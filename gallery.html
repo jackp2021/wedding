@@ -18,6 +18,59 @@
     --midnightblue: #000052;
     --gray: #817d99;
   }
+  * {
+    box-sizing: border-box;
+  }
+
+  /* body {
+    margin: 0;
+    font-family: Arial;
+  } */
+
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+  }
+/*
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  } */
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  /* @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  } */
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  /* @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  } */
 
   </style>
 
@@ -63,7 +116,8 @@
     </span>
 
 <br>
-<!-- <div>
+<!-- <div> -->
+<!-- <img src="http://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg" style="width=100%">
 <img src="http://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg" height="150" width="300" />
 <img src="http://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg" height="150" width="300" />
 <img src="http://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg" height="150" width="300" />
@@ -71,12 +125,31 @@
 <img src="http://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg" height="150" width="300" />
 <img src="http://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg" height="150" width="300" />
 <img src="http://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg" height="150" width="300" />
-<img src="http://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg" height="150" width="300" />
+</div> -->
+
+
+
+
+<br>
+<br>
+<center>
+  <div class="column">
+    <img src="1.jpg" style="width:100%">
+    <img src="6.jpg" style="width:100%">
+    <img src="3.jpg" style="width:100%">
+    <img src="8.jpg" style="width:100%">
+    <img src="5.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="2.jpg" style="width:100%">
+    <img src="7.jpg" style="width:100%">
+    <img src="4.jpg" style="width:100%">
+    <img src="9.jpg" style="width:100%">
+      <img src="10.jpg" style="width:100%">
 </div>
- -->
-<br>
-<br>
-<div>
+</center>
+
+<!-- <div>
   <div>
   <button class="imgLink">
 	<img
@@ -139,7 +212,7 @@
 	  src="10.jpg"
 	  alt="j&k"
 	/>
-  </button>
+  </button> -->
 
 
 
